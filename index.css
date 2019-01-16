@@ -82,6 +82,12 @@ body, html {
 
   @media screen and (max-width: 992px) {
     .container {
-      padding-top: 30px;
+      padding-top: 40px;
+    }
+  }
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    .container {
+      padding-top: 40px;      
     }
   }
