@@ -14,18 +14,20 @@
 
     <div class="container">
         <div class="topleft">
-            <p>Small Batch Brewery</p>
+            <img class="logo" src="assets\logo.JPG">
         </div>
         <div class="middle">
             <h1 style="color:white">COMING SOON</h1>
             <hr>
-            <p  id="demo"></p>
+            <p  id="countdown"></p>
+            <p class="info-text">Skansevej 8B • DK-3700 Rønne
+                Tel: +45 61 12 07 19 • ale@smallbatch.dk
+                www.smallbatch.dk</p>
         </div>
         <div class="bottomleft">
             <a class="link" href="https://www.facebook.com/pages/category/Brewery/Small-Batch-Brewery-Bornholm-987429424623924/" target="_blank">Facebook</a>
         </div>
     </div>
-
 
 
     <script>
@@ -49,13 +51,13 @@
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
             // Display the result in an element with id="demo"
-            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
                 + minutes + "m " + seconds + "s ";
 
             // If the count down is finished, write some text 
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
+                document.getElementById("countdown").innerHTML = "EXPIRED";
             }
         }, 1000);
     </script>

@@ -2,6 +2,14 @@
 body, html {
     height: 100%
   }
+
+  .logo {
+    height: 180px;
+  }
+
+  .info-text {
+    font-size: 15px;
+  }
   
   .container {
     /* Full-screen */
@@ -19,6 +27,8 @@ body, html {
     /* Set the font-size to 25 pixels */
     font-size: 30px;
   }
+
+  
   
   /* Position text in the top-left corner */
   .topleft {
