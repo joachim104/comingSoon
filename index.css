@@ -80,25 +80,8 @@ body, html {
     width: 40%;
   }
 
-  @media screen and (device-aspect-ratio: 40/71) {
+  @media screen and (max-width: 992px) {
     .container {
-      /* Full-screen */
-      height: 100%;
-      /* Center the background image */
-      background-position: center;
-      /* Scale and zoom in the image */
-      background-size: cover;
-      /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-      position: relative;
-      /* Add a white text color to all elements inside the .bgimg container */
-      color: white;
-      /* Add a font */
-      font-family: "Courier New", Courier, monospace;
-      /* Set the font-size to 25 pixels */
-      font-size: 30px;
-      
-      padding-top: 115px;
+      padding-top: 30px;
     }
-
-
   }
