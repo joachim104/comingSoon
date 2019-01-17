@@ -86,7 +86,8 @@ body, html {
       /* display: none; */
       text-align: center;
       bottom: -140px;
-      padding-left: 75px;
+      width: 50%;
+      margin: 0 auto;
     }
 
     .middle {
