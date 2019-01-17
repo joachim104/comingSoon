@@ -1,7 +1,7 @@
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body, html {
     height: 100%;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
   }
 
   .logo {
@@ -80,23 +80,14 @@ body, html {
     width: 40%;
   }
 
-  /* @media screen and (max-width: 992px) {
-    .container {
-      padding-top: 40px;
-    }
-  } */
-
   @media screen and (max-width: 600px) {
+
     .link {
       display: none;
     }
-    .middle {
-      padding-top: 150px;
-    }
-  }
 
-  /* @media screen and (device-aspect-ratio: 40/71) {
-    .container {
-      padding-top: 40px;      
+    .middle {
+      padding-top: 200px;
     }
-  } */
+
+  }
