@@ -82,8 +82,11 @@ body, html {
 
   @media screen and (max-width: 600px) {
 
-    .link {
-      display: none;
+    .bottomleft {
+      /* display: none; */
+      text-align: center;
+      bottom: -90px;
+      padding-left: 66px;
     }
 
     .middle {
