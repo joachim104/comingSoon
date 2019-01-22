@@ -8,6 +8,7 @@
 
   .logo {
     height: 150px;
+    margin-top: 15px;
   }
 
   .header-text {
@@ -67,6 +68,34 @@
   .right {
     grid-area: right;
   }
+
+  .nav {
+    text-align:center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    display:inline-block;
+}
+
+.nav li {
+    /* display:inline; */
+    display:inline-block;
+
+}
+
+.nav li:hover {
+    background-color: yellow;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.nav a {
+    display:inline-block;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+}
   
   /* Style the footer */
   .footer {
@@ -75,6 +104,8 @@
     padding: 10px;
     text-align: center;
   }
+
+
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
