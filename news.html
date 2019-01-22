@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="news.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Nyheder</title>
+</head>
+
+<body>
+
+    <!-- <h3>
+        På vores lille bryggeri Small Batch brygger vi Bornholmsk øl i balance. Med grundighed, kærlighed
+        og respekt for det gode øl giver vi dig en unik øloplevelse
+    </h3> -->
+
+    <div class="logo-container">
+        <img class="logo" src="assets\logo-tekst.JPG">
+    </div>
+
+    <!-- <h1> Small Batch</h1> -->
+
+
+    <ul class="nav">
+        <li><a href="/about/">News</a></li>
+        <li><a href="/work/">Locations</a></li>
+        <li><a href="/clients/">Pictures</a></li>
+        <li><a href="/contact/">Events</a></li>
+        <li><a href="/contact/">About us</a></li>
+    </ul>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="beer-container"></div>
+
+    <script>
+
+        let beerList = [
+            {
+                "name": "Liege",
+                "type": "Belgisk Witbier",
+                "source": "https://thisted-bryghus.dk/media/1101/liege-m-draaber-50-cl.png"
+            },
+            {
+                "name": "Rug",
+                "type": "Mørk Ale",
+                "source": "https://thisted-bryghus.dk/media/1293/22.png"
+            },
+            {
+                "name": "Gin N' Beer",
+                "type": "Gylden Ale",
+                "source": "https://thisted-bryghus.dk/media/1287/gin-n-beer.png"
+            },
+            {
+                "name": "Gin N' Beer",
+                "type": "Gylden Ale",
+                "source": "https://thisted-bryghus.dk/media/1287/gin-n-beer.png"
+            },
+            {
+                "name": "Gin N' Beer",
+                "type": "Gylden Ale",
+                "source": "https://thisted-bryghus.dk/media/1287/gin-n-beer.png"
+            },
+            {
+                "name": "Gin N' Beer",
+                "type": "Gylden Ale",
+                "source": "https://thisted-bryghus.dk/media/1287/gin-n-beer.png"
+            },
+        ]
+
+        $(document).ready(function () {
+            showBeers();
+        });
+
+        function showBeers() {
+            $.each(beerList, function (key, value) {
+                $(".beer-container").append(' <img class="beer" src="' + value.source + '">');
+            });
+        };
+
+    </script>
+
+</body>
+
+</html>
