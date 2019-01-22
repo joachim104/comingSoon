@@ -54,7 +54,6 @@
 
 
     <script>
-
         let beerList = [
             {
                 "name": "Liege",
@@ -102,17 +101,17 @@
 
                 switch (counter) {
                     case 0:
-                        $(".left").append(' <img class="beer" src="' + value.source + '"> <h2 class="beer-name">' + value.name + '</h2>');
+                        $(".left").append(' <img class="beer" src="' + value.source + '"> <p class="beer-name">' + value.name + '</p> <p class="beer-type">' + value.type + ' </p>');
                         counter = 1
                         break;
 
                     case 1:
-                        $(".middle").append(' <img class="beer" src="' + value.source + '"> <h2 class="beer-name">' + value.name + '</h2>');
+                        $(".middle").append(' <img class="beer" src="' + value.source + '"> <p class="beer-name">' + value.name + '</p> <p class="beer-type">' + value.type + ' </p>');
                         counter = 2;
                         break;
 
                     case 2:
-                        $(".right").append(' <img class="beer" src="' + value.source + '"> <h2 class="beer-name">' + value.name + '</h2>');
+                        $(".right").append(' <img class="beer" src="' + value.source + '"> <p class="beer-name">' + value.name + '</p> <p class="beer-type">' + value.type + ' </p>');
                         counter = 0;
                         break;
                 }
