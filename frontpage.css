@@ -37,7 +37,9 @@
     font-size: 16px;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
+    padding-bottom: 30px;
   }
+
   
   /* Style the header */
   .header {
@@ -87,10 +89,6 @@
     display:inline-block;
 }
 
-.nav li:hover {
-    background-color: yellow;
-}
-
 .nav a:hover {
     color: black;
 }
@@ -100,6 +98,20 @@
     padding:10px;
     color: white;
     text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
 }
   
   /* Style the footer */
