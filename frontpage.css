@@ -118,8 +118,13 @@
   .footer {
     grid-area: footer;
     background-color: #292c2f;
-    padding: 30px;
+    /* padding: 10px; */
     text-align: center;
+    border-top: solid white 1px;
+  }
+
+  .footer-logo {
+    height: 160px;
   }
 
 
@@ -235,7 +240,7 @@
   .footer-distributed .footer-company-about{
     line-height: 20px;
     color:  #92999f;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: normal;
     margin: 0;
   }
@@ -243,24 +248,24 @@
   .footer-distributed .footer-company-about span{
     display: block;
     color:  #ffffff;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
   }
   
   .footer-distributed .footer-icons{
-    margin-top: 25px;
+    margin-top: 35px;
   }
   
   .footer-distributed .footer-icons a{
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 90px;
+    height: 90px;
     cursor: pointer;
-    background-color:  #33383b;
+    background-color:  black;
     border-radius: 2px;
   
-    font-size: 20px;
+    font-size: 40px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
@@ -268,6 +273,9 @@
     margin-right: 3px;
     margin-bottom: 5px;
   }
+
+
+
   
   /* If you don't want the footer to be responsive, remove these media queries */
   
@@ -289,11 +297,7 @@
     .footer-distributed .footer-center i{
       margin-left: 0;
     }
-  
   }
-  
-
-
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
