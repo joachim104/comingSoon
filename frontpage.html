@@ -16,7 +16,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="frontpage.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Small Batch</title>
+    <title>Local Host</title>
 </head>
 
 <body>
@@ -46,9 +46,72 @@
 
         <div class="right"></div>
 
-        <div class="footer">
-            <p style="color:white">Footer</p>
-        </div>
+        <!-- <div class="footer"> -->
+        <footer class="footer footer-distributed">
+
+            <div class="footer-left">
+
+                <h3>SBB Logo<span>Here</span></h3>
+
+                <!-- <img class="logo" src="assets/humle.JPG"> -->
+
+
+
+                <p class="footer-links">
+                    <a href="#">News</a>
+                    ·
+                    <a href="#">Beers</a>
+                    ·
+                    <a href="#">Locations</a>
+                    ·
+                    <a href="#">Events</a>
+                    ·
+                    <a href="#">About us</a>
+                </p>
+
+                <p class="footer-company-name">Small Batch Brewery © 2015</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Skansevej 8B</span> DK-3700 Rønne</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>Tel: +45 61 12 07 19</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="ale@smallbatch.dk ">ale@smallbatch.dk </a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About us</span>
+                    På vores lille bryggeri Small Batch brygger vi Bornholmsk øl i balance. Med
+                    grundighed, kærlighed og respekt for det gode øl giver vi dig en unik øloplevelse
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+
+                </div>
+
+            </div>
+
+        </footer>
+        <!-- </div> -->
     </div>
 
 
@@ -90,7 +153,6 @@
         $(document).ready(function () {
             showBeers();
         });
-
 
         let counter = 0;
 
